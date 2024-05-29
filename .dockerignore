@@ -1,0 +1,20 @@
+# *.dockerignore file right next to Dockerfile doesn't seem to be working
+# so this is a global .dockerignore for all docker builds
+
+# files/directories to ignore at root
+node_modules
+.git
+.DS_Store
+
+
+# files/directories to ignore at any level
+**/node_modules
+**/.DS_Store
+**/.env
+**/*.md
+
+# ignore all workspaces under these directories
+infra
+infra-examples
+local
+scripts

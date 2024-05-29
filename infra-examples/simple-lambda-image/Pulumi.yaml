@@ -1,0 +1,5 @@
+name: simple-lambda-image
+runtime: nodejs
+description: Script to provision and manage the infra for a simple lambda handler build with a docker image - ECR repo, ECR image and Lambda.
+config:
+  aws:region: us-east-1

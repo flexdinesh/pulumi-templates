@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-blue-600 dark:text-blue-500 hover:underline;
+  }
+}
+
+.pulse-bg {
+  animation-name: pulse;
+  animation-duration: 2s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: greenyellow
+  }
+
+  100% {
+    background-color: transparent
+  }
+}

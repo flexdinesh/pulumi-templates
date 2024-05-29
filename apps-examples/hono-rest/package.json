@@ -1,0 +1,31 @@
+{
+  "name": "@apps-examples/hono-rest",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf .cache build public/build out",
+    "dev": "tsx watch src/local.ts",
+    "build:lambda": "tsup src/lambda.ts",
+    "build:local": "tsup src/local.ts",
+    "build:fargate": "tsup src/fargate.ts",
+    "start:local": "node out/local.js",
+    "start:fargate": "node out/fargate.js",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "hono": "^3.11.8"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^1.3.3",
+    "tsup": "^7.2.0",
+    "tsx": "^4.5.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "**/*"
+  ]
+}

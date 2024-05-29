@@ -1,0 +1,9 @@
+name: remix-app-fargate
+runtime: nodejs
+description: Script to provision and manage the infra for an example Remix app - ecr repo, ecr image, ECS, Fargate, S3, CloudFront.
+config:
+  aws:region: us-east-1
+  # the name of the public directory
+  remix:publicDirectoryName: public
+  # the name of the client build directory inside public directory (usually public/build)
+  remix:immutableAssetsDirectoryName: build

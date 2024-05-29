@@ -1,0 +1,13 @@
+{
+  "name": "pulumi-templates",
+  "description": "Monorepo to house the source code for pocketnotes",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "clean": "pnpm --parallel run \"/^clean/\""
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}

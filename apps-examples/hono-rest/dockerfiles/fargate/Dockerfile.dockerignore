@@ -1,0 +1,24 @@
+# all paths are relative from the root of the monorepo
+
+# files/directories to ignore at root
+node_modules
+.git
+.DS_Store
+
+
+# files/directories to ignore at any level
+**/node_modules
+**/.DS_Store
+**/.env
+**/*.md
+
+# ignore all workspaces under these directories
+apps
+infra
+infra-examples
+local
+scripts
+
+# ignore all workspaces except this particular workspace
+apps-examples
+!apps-examples/hono-rest

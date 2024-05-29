@@ -1,0 +1,5 @@
+name: hono-rest-fargate
+runtime: nodejs
+description: Script to provision and manage the infra for a hono REST API - ECR repo, ECR image, ECS, Fargate and API Gateway.
+config:
+  aws:region: us-east-1

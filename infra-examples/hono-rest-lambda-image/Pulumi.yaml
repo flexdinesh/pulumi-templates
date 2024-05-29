@@ -1,0 +1,5 @@
+name: hono-rest-lambda-image
+runtime: nodejs
+description: Script to provision and manage the infra for an example Hono REST API - ECR repo, ECR image, API Gateway and Lambda handler.
+config:
+  aws:region: us-east-1

@@ -1,0 +1,1 @@
+- The directory location in `scripts/copy-files-from-docker-image.sh` depends on the docker build. If the public dir in the docker image is changed, this script should also be updated to match the new location.

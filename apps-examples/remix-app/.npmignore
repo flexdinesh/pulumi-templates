@@ -1,0 +1,7 @@
+# this file is to control the output of pnpm deploy command
+# we want to gitignore dist/out directories but include it in pnpm deploy
+**/.DS_Store
+**/*.md
+.git
+.env
+.gitignore

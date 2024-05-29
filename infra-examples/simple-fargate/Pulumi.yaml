@@ -1,0 +1,5 @@
+name: simple-fargate
+runtime: nodejs
+description: Script to provision and manage the infra for a simple http server - ECR repo, ECR image, ECS, Fargate and API Gateway.
+config:
+  aws:region: us-east-1
